@@ -15,7 +15,6 @@
     margin: 0;
     float: right;
     overflow: hidden;
-    background-color: grey;
     position: fixed; 
     top: 60px; 
     width: 310px;
@@ -40,7 +39,7 @@
   }
 
   .navcolor{
-      color: white;
+      color: black;
   }
 
 .area{  
