@@ -1,6 +1,8 @@
 .context {
     width: 100%;
     position: absolute;
+    text-align: center;
+    color: black;
 }
 
 .context h1{
