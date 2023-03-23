@@ -11,6 +11,10 @@
     font-size: 50px;
 }
 
+.head{
+    text-align: center;
+}
+
 .navbar {
     margin: 0;
     overflow: hidden;
