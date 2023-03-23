@@ -21,9 +21,9 @@
     overflow: hidden;
     top: 60px; 
     width: 310px;
-    z-index: 1;
     float: right;
     position: static;
+    z-index: 1;
   }
 
   
@@ -36,11 +36,11 @@
   }
 
   .navbar a:hover {    
-    color: cyan;
+    color: lightgreen;
   }
 
   .active{
-      color: red;
+      color: purple;
   }
 
   .navcolor{
