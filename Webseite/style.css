@@ -69,3 +69,15 @@ nav{
     font-weight: bold;
     font-style: normal;
 }
+
+@media screen and (min-width: 1024px) {
+    font{
+      font-size: 60px ;
+    }
+  }
+ 
+  @media screen and (min-width: 720px) {
+    font{
+      font-size: 30px ;
+    }
+  }
