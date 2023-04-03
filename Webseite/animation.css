@@ -7,55 +7,13 @@ body{
 .center{
     text-align: center;
 }
-/*
-.center button{
-    width: 20vw;
-    height: 5vh;
-    border-radius: 2vw;
+
+.unicorn{
+    width: 5vw;
+    height: 5vw;
+    animation: einhorn 15s linear infinite;
 }
 
-.circlenav{
-    margin-top: 3vh;
-    height: 1vw;
-    width: 1vw;
-    border-radius: 50px;
-    background-color: lightgray;
-   
-}
-
-nav{
-    display: flex;
-    width: 80vw;
-    justify-content: space-between;
-    margin: 0 auto;
-}
-
-.active{
-    height: 2vw;
-    width: 2vw;
-}
-
-.green{
-    color: #4ff9a3;
-}
-
-.orange{
-    color: #ffba3c;
-}
-
-.blue{
-    color: #7bc7ff;
-}
-
-.grey{
-    color: #c1c1c1;
-}
-
-.box{
-    width: 80vw;
-    margin: 0 auto;
-}
-*/
 .area{  
     width: 100vw;
     height:100%;
@@ -227,6 +185,16 @@ nav{
         border-radius: 50%;
     }
 
+}
+
+@keyframes einhorn{
+    0%{
+        transform: translateX(0);
+    }
+    
+    100%{
+        transform: translateX(1000px);
+    }
 }
 
 @font-face {
