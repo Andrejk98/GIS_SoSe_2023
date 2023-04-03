@@ -20,11 +20,6 @@ p {
 
 /*Visuelle Formatierungsregeln (z. B. background, opacity, visibility, overflow, box-shadow)*/
 
-body {
-  background-color: #1d1a32;
-  color: #c1c1c1;
-  font-family: Arial, sans-serif;
-}
 
 
 
@@ -110,7 +105,6 @@ body {
   background-size: 4vw 4vw;
   position: relative;
   animation: jump 1s linear infinite;
-  
    /*maybe
   bottom: calc(var(--bottom) * 1%);
     */
@@ -121,7 +115,7 @@ body {
 
 @keyframes jump {
     0% {
-      top: 140px;
+      top: 170px;
     }
     /*
     30% {
@@ -138,7 +132,7 @@ body {
     }
 */
     100% {
-      top: 140px;
+      top: 170px;
     }
 
 }
@@ -148,7 +142,7 @@ body {
   width: 1.5vw;
   height: 2.5vw;
   position: relative;
-  top: 100px;
+  top: 123px;
   left: 570px;
   background-image: url("Bild/Flower\ 1.png");
   background-size: 1.5vw 2.5vw;
@@ -160,7 +154,7 @@ body {
 
 @keyframes block {
   0% {
-    left: 99%;
+    left: 100%;
   }
 
   100% {

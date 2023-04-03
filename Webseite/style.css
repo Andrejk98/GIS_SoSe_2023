@@ -4,6 +4,10 @@ body{
     font-family: 'Fira Code';
 }
 
+h1{
+    margin-bottom: 3vw;
+}
+
 .circlenav{
     margin-top: 3vh;
     height: 1vw;
