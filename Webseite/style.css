@@ -56,6 +56,11 @@ nav{
     color: #c1c1c1;
 }
 
+.link{
+    text-decoration: none;
+    color: #c1c1c1;
+}
+
 @font-face {
     font-family: 'Fira Code';
     src: url('Schriftart/woff2/FiraCode-Regular.woff2') format('woff2');
