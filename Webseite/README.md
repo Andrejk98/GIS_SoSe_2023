@@ -1,1 +1,1 @@
-# GIS_SoSe_2023
+# Unser Projekt für den Kurs Grundlagen Interaktiver Systeme im Sommersemester 2023
