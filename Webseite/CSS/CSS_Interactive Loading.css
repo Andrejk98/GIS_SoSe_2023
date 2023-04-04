@@ -98,7 +98,7 @@ h1 {
   */
   width: 4vw;
   height: 4vw;
-  background-image: url("/Webseite/Bild/Unicorn.png");
+  background-image: url("../Bild/Unicorn.png");
   background-size: 4vw 4vw;
   position: relative;
   animation: jump 1s linear infinite;
@@ -141,7 +141,7 @@ h1 {
   position: relative;
   top: 123px;
   left: 570px;
-  background-image: url("/Webseite/Bild/Flower\ 1.png");
+  background-image: url("../Bild/Flower\ 1.png");
   background-size: 1.5vw 2.5vw;
 
   animation: block 2s infinite linear;
