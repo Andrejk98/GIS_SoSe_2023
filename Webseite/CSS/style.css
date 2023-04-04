@@ -22,6 +22,11 @@ h1{
     margin: 0 auto;
 }
 
+.pointer{
+    cursor: pointer;
+    margin-top: 2vw;
+}
+
 .center{
     text-align: center;
 }
@@ -37,6 +42,7 @@ nav{
     width: 80vw;
     justify-content: space-between;
     margin: 0 auto;
+    margin-top: 2vw;
 }
 
 .active{
