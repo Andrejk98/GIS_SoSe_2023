@@ -1,6 +1,6 @@
 #slider {
     margin: 0 auto;
-    width: 800px;
+    width: 40vw;
     max-width: 100%;
     text-align: center;
  }
@@ -64,15 +64,15 @@
  #controls {
     margin: -180px 0 0 0;
     width: 100%;
-    height: 50px;
+    height: 5vw;
     z-index: 3;
     position: relative;
  }
  #controls label {
     transition: opacity 0.2s ease-out;
     display: none;
-    width: 50px;
-    height: 50px;
+    width: 5vw;
+    height: 5vw;
     opacity: .4;
  }
  #controls label:hover {
@@ -107,6 +107,7 @@
     border-radius:100%;
     background: #ccc;
     margin: 0 10px;
+    margin-top: 5vw;
  }
  #slide1:checked ~ #bullets label:nth-child(1),
  #slide2:checked ~ #bullets label:nth-child(2),
@@ -114,6 +115,7 @@
  #slide4:checked ~ #bullets label:nth-child(4) {
     background: #444;
  }
+/*
  @media screen and (max-width: 900px) {
     #slide1:checked ~ #controls label:nth-child(2),
     #slide2:checked ~ #controls label:nth-child(3),
@@ -130,4 +132,5 @@
        margin: 0 auto;
     }
  }
+ */
 

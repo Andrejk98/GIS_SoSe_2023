@@ -46,9 +46,9 @@ pointer-events: none;
 
 #text{
     position: relative;
-    font-size: 6em;
+    font-size: 10vw;
     padding-right: 6%;
-    padding-bottom: 35%;
+    padding-bottom: 35vh;
     z-index: 1;
 }
 
@@ -72,10 +72,8 @@ div{
 
 #fi{
     backdrop-filter: blur(100px);
-}
-
-#text2{
-    font-size: 500%;
+    width: 10vw;
+    height: 10vw;
 }
 
 div2{
@@ -88,9 +86,9 @@ div2{
     }
 
 #zi {
-    height: 5%;
-    width: 5%;
-    margin-left: 50%;
+    height: 10vw;
+    width: 10vw;
+    margin-right: 10vw;
 }
 
     
