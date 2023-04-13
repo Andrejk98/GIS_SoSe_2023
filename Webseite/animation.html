@@ -7,6 +7,7 @@
     <title>Animation</title>
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/animation.css">
+    <script src="Script/animation.js" async></script>
 </head>
 <body>
     <div class="box">
@@ -30,7 +31,7 @@
         </p>
         
 
-        <img src="/Webseite/Bild/Unicorn.png" alt="Einhorn" class="unicorn">
+        <img src="/Webseite/Bild/Unicorn.png" alt="Einhorn" class="unicorn" id="unicorn">
         <br><span class="orange">&lt;br&gt;</span>
 
         <p> 
@@ -58,6 +59,10 @@
             </ul>
             <span class="blue">&lt;/p&gt;</span>
         </p>
+        <p>
+            <button onclick="clear()"></button>
+        </p>
+        <canvas id="myCanvas" width="400" height="300" style="border:1px solid #4ff9a3;"></canvas>
         <div class="center">
             <form action="onscroll.html">
                 <button type="submit" class="pointer">Hier geht es weiter</button>
